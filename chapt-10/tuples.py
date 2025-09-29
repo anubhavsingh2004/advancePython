@@ -34,3 +34,18 @@ print(new_tuple[1])
 #accesing a range of elemts in tuple
 new_tuple=("a","c","d", "e", "a")
 print(new_tuple[1:4])
+
+#tuple operations:
+#1 conctenation:
+tup1=(1,2,3,5)
+tup2=(6,7,8)
+combined=tup1 +tup2
+print(combined)
+
+#2 repetition;
+tup3=(1,2,34)*3
+print(tup3) # print three times in the same list
+
+#3 checking for elem in tuple:
+tup4=(1,2,34,6,7)
+print(7 in tup4)

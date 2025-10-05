@@ -86,3 +86,4 @@ list45=[56,4]
 list55=[5,98,74]
 list45.extend(list55)
 print(list45)
+

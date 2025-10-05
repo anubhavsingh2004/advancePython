@@ -48,4 +48,43 @@ print(tup3) # print three times in the same list
 
 #3 checking for elem in tuple:
 tup4=(1,2,34,6,7)
-print(7 in tup4)
+print(7 in tup4)   #returns T/F
+
+# tuple methods:
+# python only has two built in mtheods - count , index()
+colors=(1,2,4,2)
+print(colors.count(2))
+print(colors.index(2)) #pehla occurance of 2 ka index dega
+
+# tuple functions:
+# len(),
+#  sorted()- sorts the tuple but returns a list,
+#  sum()- returns the numeric sum
+# min, max()
+
+print(len(colors))
+print(sum(colors))
+print(sorted(colors)) #returns a list sorted
+print(min(colors)) 
+
+# packing and unpackin a tuple:
+
+# packing- putting multiple values into a single tuple 
+# unpacking is extractings values from a tuple into seperate variables
+
+# modifying tuples:
+# once a tuple is created you cannot modify it, as it is/
+# immutable so what is its use?- used in areas where the
+#  values are not expected to chnge like lats longs of earth
+
+# but if really want to modify the tuple we can convert it to
+#  lst instead before changing and then after we are done modifying
+#  the list we can chng it back to tuple
+ #ex 
+numbers45=1.2,5,86,9
+print(type(numbers45))
+numbers45_list=list(numbers45)
+numbers45_list[2]=45
+print(numbers45_list)
+numbers45=tuple(numbers45_list)
+print(numbers45)

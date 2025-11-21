@@ -64,14 +64,14 @@ set2={2,5}
 diffset=set1.difference(set2) #this is set1 - set2
 print(diffset)
 
-#4 symm difference :
+#4 symmetric difference :
 set1={1,2,3}
 set2={2,5}
 symmset=set1.symmetric_difference(set2) # this is union(set1, set2)- intersection(set1,set2)
 print(symmset)
 
 #set iterations:
-# for loop:
+#for loop:
 #3 difference :
 set1={1,2,3}
 for i in set1:
